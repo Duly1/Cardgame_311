@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.csc311_24game.HelloController">
+
+    <HBox spacing="10" alignment="CENTER">
+        <ImageView fx:id="card1" fitWidth="100" preserveRatio="true"/>
+        <ImageView fx:id="card2" fitWidth="100" preserveRatio="true"/>
+        <ImageView fx:id="card3" fitWidth="100" preserveRatio="true"/>
+        <ImageView fx:id="card4" fitWidth="100" preserveRatio="true"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Find a Solution" fx:id="findSolutionButton"/>
+        <Button text="Refresh" fx:id="refreshButton"/>
+        <Button text="Verify" fx:id="verifyButton"/>
+    </HBox>
+
+    <TextField fx:id="expressionField" promptText="Enter an expression..."/>
+</VBox>
